@@ -3,6 +3,7 @@ import overall_stats as ostats
 import streamlit as st
 import time
 import stats_plot as splot
+import matplotlib.pyplot as plt
 
 # session state variables
 if 'pname' not in st.session_state:
